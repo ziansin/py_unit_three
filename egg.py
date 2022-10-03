@@ -1,9 +1,28 @@
 # Start writing your functions below this line
+print("hello \"world\"")
+def top():
+    print("  _______")
+    print(" /       \\")
+    print("/         \\")
+
+def middle():
+    print("-\"-\'-\"-\'-\"-")
+
+def bottom():
+    print("\         /")
+    print(" \_______/")
+
+top()
+bottom()
+middle()
+
+top()
+bottom()
+middle()
+bottom()
+
+top()
+middle()
+bottom()
 
 
-def main():
-    # all of your function calls should go here. Remove the word "pass" before adding function calls.
-    pass
-
-if __name__ == '__main__':
-    main()
