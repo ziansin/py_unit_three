@@ -1,5 +1,5 @@
 # Start writing your functions below this line
-print("hello \"world\"")
+print("eg \"g\"")
 def top():
     print("  _______")
     print(" /       \\")
