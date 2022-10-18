@@ -1,4 +1,4 @@
-print("The program calculates surface area of rectangle prism.")
+print("This program calculates the surface area of a rectangle prism.")
 
 """
 The program takes the user inputs to be used in the functions for determining the side areas
@@ -13,7 +13,8 @@ height_input = input("Enter height: ")
 height = float(height_input)
 
 """
-The side function will take the first and second parameters, the first and second either being the width, length, or height, and multiplies them
+The side function will take the first and second parameters, either being the width and length, width and height, or length and height
+The two numbers are multiplied to find the area of the side
 The amounts are returned
 """
 def side(num1, num2):
@@ -21,7 +22,7 @@ def side(num1, num2):
 
 """
 The areas for each side are also printed out, along with the total surface area
-Total area is also converted to an integer
+Total surface area is converted to an integer
 Parameters for width, length, and height
 """
 def totalArea(width, length, height):
